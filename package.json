@@ -4,7 +4,8 @@
   "description": "Practice building a simple express app",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start" : "node index.js"
   },
   "author": "",
   "license": "ISC",
