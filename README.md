@@ -3,11 +3,16 @@
 ##Instructions
 
 You are the CTO of the Margaret Hamilton Interplanetary Academy of Code. Complete the following routes (index.js):
-	*Get all instructors
-	*Get all campuses
-	*Get name and campus for specific instructor
-	*Get all instructors on a specific campus
-	*Add a new instructor
+	
+	1. Get all instructors
+
+	2. Get all campuses
+
+	3. Get name and campus for specific instructor
+
+	4. Get all instructors on a specific campus
+	
+	5. Add a new instructor
 
 Instructors will be checking all of your routes via CURLing. 
 
