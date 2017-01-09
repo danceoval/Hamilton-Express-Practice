@@ -5,8 +5,8 @@
 var _ = require('lodash');
 var data = [];
 
-function add (name, text) {
-  data.push({ name: name, text: text, id: data.length });
+function add (name, campus) {
+  data.push({ name: name, campus: campus, id: data.length });
   return _.clone(data[data.length - 1]);
 }
 
