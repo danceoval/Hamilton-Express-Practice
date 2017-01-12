@@ -26,13 +26,13 @@ var randArrayEl = function(arr) {
 
 var getInstructor = function() {
   var fakeFirsts = ['Dan', 'Ashi', 'Emily', 'Joe', 'Bender'];
-  var fakeLasts = ['Postelthwait', 'Incadenza', 'Pemulis', 'Gately'];
+  var fakeLasts = ['Postelthwait', 'Incadenza', 'Pemulis', 'Gately', 'Hola', 'Schwartz', 'Hassan'];
   return randArrayEl(fakeFirsts) + ' ' + randArrayEl(fakeLasts);
 };
 
 var getCampus = function() {
-  var awesomeAdj = ['Terra', 'Luna', 'Mars', 'Pluto', 'Jupiter'];
-  return randArrayEl(awesomeAdj);
+  var loc = ['Terra', 'Luna', 'Mars', 'Pluto', 'Jupiter'];
+  return randArrayEl(loc);
 };
 
 for (var i = 0; i < 10; i++) {
